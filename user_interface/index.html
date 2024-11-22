@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Task Management System</h1>
+
+        <!-- Create Task -->
+        <section id="create-task">
+            <h2>Create Task</h2>
+            <form id="create-task-form">
+                <input type="text" id="title" placeholder="Task Title" required>
+                <textarea id="description" placeholder="Task Description"></textarea>
+                <input type="date" id="dueDate" required>
+                <select id="category">
+                    <option value="General">General</option>
+                    <option value="Work">Work</option>
+                    <option value="Personal">Personal</option>
+                    <option value="Health">Health</option>
+                    <option value="Education">Education</option>
+                    <option value="Finance">Finance</option>
+                    <option value="Shopping">Shopping</option>
+                    <option value="Household">Household</option>
+                    <option value="Social">Social</option>
+                    <option value="Travel">Travel</option>
+                    <option value="Hobbies">Hobbies</option>
+                    <option value="Food">Food</option>
+                </select>
+                <button type="submit">Create Task</button>
+            </form>
+        </section>
+
+        <!-- Get Tasks -->
+        <section id="get-tasks">
+            <h2>Get Tasks</h2>
+            <button id="fetch-tasks-btn">Fetch All Tasks</button>
+            <div id="tasks-list"></div>
+        </section>
+
+        <section id="editTaskSection">
+            <h2>Edit Task</h2>
+            <!-- Dropdown to select task -->
+            <label for="taskSelect">Select Task:</label>
+            <select id="taskSelect"></select>
+        
+            <!-- Input fields for editing task details -->
+            <div id="editForm">
+                <label for="editTitle">Title:</label>
+                <input type="text" id="editTitle" />
+        
+                <label for="editDescription">Description:</label>
+                <textarea id="editDescription"></textarea>
+        
+                <label for="editDueDate">Due Date:</label>
+                <input type="date" id="editDueDate" />
+        
+                <label for="editCategory">Category:</label>
+                <select id="editCategory">
+                    <option value="General">General</option>
+                    <option value="Work">Work</option>
+                    <option value="Personal">Personal</option>
+                    <option value="Health">Health</option>
+                    <option value="Education">Education</option>
+                    <option value="Finance">Finance</option>
+                    <option value="Shopping">Shopping</option>
+                    <option value="Household">Household</option>
+                    <option value="Social">Social</option>
+                    <option value="Travel">Travel</option>
+                    <option value="Hobbies">Hobbies</option>
+                    <option value="Food">Food</option>
+                </select>
+        
+                <!-- Button to update task -->
+                <button id="updateTaskBtn">Update Task</button>
+            </div>
+        </section>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
