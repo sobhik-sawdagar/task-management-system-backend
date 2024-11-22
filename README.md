@@ -167,6 +167,32 @@ Testing the Endpoints
     -   Local: `http://localhost:3000`
     -   Hosted: `https://task-management-system-backend-dw7t.vercel.app`
 3.  Send requests to the endpoints and verify the responses.
+#### Example Usage:
+- Create a Task:
+
+  ![image](https://github.com/user-attachments/assets/29a2bd40-64e4-4e41-a5e6-9de424224873)
+
+
+- Update Details:
+
+  ![image](https://github.com/user-attachments/assets/66db13eb-82d2-40e6-8244-68dffa3cdd38)
+
+
+- Mark as Complete:
+
+  ![image](https://github.com/user-attachments/assets/b35d6fbd-f925-4751-bf3b-098436a09ccc)
+
+
+- Delete a Task:
+  
+  ![image](https://github.com/user-attachments/assets/20cd73e2-276d-40b5-b927-87a1d2283bfa)
+
+
+- View/Fetch all Tasks
+
+  ![image](https://github.com/user-attachments/assets/bced858b-fca4-4215-a54a-c7bd9b77ebea)
+
+
 
 ### Using the User Interface:
 
